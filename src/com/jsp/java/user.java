@@ -3,7 +3,14 @@ package com.jsp.java;
 class user {
 	private int id;
 	private String name;
+	private long no;
 	
+	public long getNo() {
+		return no;
+	}
+	public void setNo(long no) {
+		this.no = no;
+	}
 	public int getId() {
 		return id;
 	}
